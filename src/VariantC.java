@@ -20,7 +20,7 @@ public class VariantC {
             System.out.println();
         }
         int k;
-        System.out.println("Input a number of a colomn:");
+        System.out.println("Please, Input a number of a colomn:");
         k = in.nextInt();
         int tmp_arr [] = new int[dimension];
         Arrays.sort(arr,(x,y)-> x[k]-y[k]);
